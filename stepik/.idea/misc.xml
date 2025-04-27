@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.13 (stepik)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (stepik)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 virtualenv at ~/PycharmProjects/stepik_auto_tests_course/stepik/.venv" project-jdk-type="Python SDK" />
 </project>

@@ -1,15 +1,12 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
 import time
 
-service = Service(executable_path=ChromeDriverManager().install())
-
 try:
     link = "https://suninjuly.github.io/registration2.html"
-    browser = webdriver.Chrome(service=service)
+    browser = webdriver.Chrome()
     browser.get(link)
 
     # Ваш код, который заполняет обязательные поля
@@ -41,3 +38,4 @@ finally:
     time.sleep(1)
     # закрываем браузер после всех манипуляций
     browser.quit()
+
