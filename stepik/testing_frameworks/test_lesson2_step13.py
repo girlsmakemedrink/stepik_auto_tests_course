@@ -5,7 +5,7 @@ from selenium import webdriver
 link1 = "https://suninjuly.github.io/registration1.html"
 link2 = "https://suninjuly.github.io/registration2.html"
 
-class TestAbs(unittest.TestCase):
+class TestLinks(unittest.TestCase):
 
     def test_link1(self):
 
